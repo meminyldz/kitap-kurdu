@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/unauthorized" element={<Unauthorized />} />
